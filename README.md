@@ -8,14 +8,14 @@
 <body>
     <h1>Web Scraping Project</h1>
     <p>This project demonstrates a web scraping application using Python, BeautifulSoup, and Selenium. The application extracts data from web pages and saves the scraped data into a CSV file.</p>
-    
+
     <h2>Project Structure</h2>
     <ul>
         <li><strong>main.py:</strong> Uses Selenium to open a web browser, search for content, and navigate web pages. It uses the Chrome WebDriver to automate interactions on the Python website.</li>
         <li><strong>collection.py:</strong> Uses BeautifulSoup to parse local HTML files stored in the "data" directory. It extracts product details such as title, price, link, and image and stores them in a CSV file.</li>
         <li><strong>data.csv:</strong> The CSV file where the scraped data is saved.</li>
     </ul>
-    
+
     <h2>Requirements</h2>
     <ul>
         <li>Python 3.x</li>
@@ -32,7 +32,7 @@ pip install selenium</code></pre>
     <h2>How to Run the Project</h2>
     <h3>Step 1: Setup Selenium</h3>
     <p>Download and install the Chrome WebDriver for your browser version from <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads">here</a>. Ensure that the path to the Chrome WebDriver is added to your system's PATH environment variable.</p>
-    
+
     <h3>Step 2: Run main.py</h3>
     <p>This script opens a browser and performs a search for the term "pycon" on the Python.org website. It uses Selenium to automate this task.</p>
     <pre><code>python main.py</code></pre>
@@ -61,7 +61,5 @@ pip install selenium</code></pre>
         <li><strong>Link</strong></li>
         <li><strong>Image</strong></li>
     </ul>
-
-   
 </body>
 </html>
