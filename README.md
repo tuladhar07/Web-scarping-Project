@@ -1,6 +1,7 @@
 # Web Scraping Project
 
 This project demonstrates a web scraping application using Python, BeautifulSoup, and Selenium. The application extracts data from web pages and saves the scraped data into a CSV file.
+I have used Daraz to scrape general information of the products such as its name , url to the product, its price as well as the image of the product. The structure of the product is described below.
 
 ## Project Structure
 
